@@ -1,25 +1,20 @@
-<section id="experience">
-<h2 class="section-title">Experience</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Experience</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Experience</h1>
 
-<div class="project-card">
 <h3>System Administration</h3>
-<p>
-Installed and configured Windows OS on multiple systems, performed driver installation, troubleshooting and security configuration.
-</p>
-</div>
+<p>Installed and configured Windows OS, troubleshooting and maintenance.</p>
 
-<div class="project-card">
 <h3>Networking</h3>
-<p>
-Configured networking devices, IP addressing, connectivity testing and firewall settings.
-</p>
-</div>
+<p>IP addressing, routing, switching and connectivity testing.</p>
 
-<div class="project-card">
 <h3>CCTV & Hardware Support</h3>
-<p>
-Worked on DVR/NVR installation, hardware maintenance, desktop troubleshooting and computer hardware support.
-</p>
-</div>
+<p>DVR/NVR installation and desktop troubleshooting.</p>
 
-</section>
+</body>
+</html>
