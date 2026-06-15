@@ -1,0 +1,25 @@
+<section id="experience">
+<h2 class="section-title">Experience</h2>
+
+<div class="project-card">
+<h3>System Administration</h3>
+<p>
+Installed and configured Windows OS on multiple systems, performed driver installation, troubleshooting and security configuration.
+</p>
+</div>
+
+<div class="project-card">
+<h3>Networking</h3>
+<p>
+Configured networking devices, IP addressing, connectivity testing and firewall settings.
+</p>
+</div>
+
+<div class="project-card">
+<h3>CCTV & Hardware Support</h3>
+<p>
+Worked on DVR/NVR installation, hardware maintenance, desktop troubleshooting and computer hardware support.
+</p>
+</div>
+
+</section>
