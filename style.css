@@ -1,42 +1,39 @@
 body{
-    font-family: Arial, sans-serif;
-    background: #0f172a;
-    color: white;
-    margin: 0;
-    padding: 0;
+    margin:0;
+    font-family:Arial,sans-serif;
+    background:#0a192f;
+    color:white;
 }
 
 header{
-    text-align: center;
-    padding: 50px;
-    background: #1e293b;
+    display:flex;
+    justify-content:space-around;
+    align-items:center;
+    padding:50px;
+}
+
+.profile-img{
+    width:250px;
+    border-radius:50%;
+    border:5px solid #38bdf8;
+}
+
+.hero-text h1{
+    font-size:60px;
+    color:#38bdf8;
+}
+
+.hero-text h2{
+    font-size:30px;
 }
 
 section{
-    padding: 30px;
-}
-
-h1{
-    color: #38bdf8;
+    padding:40px;
 }
 
 .card{
-    background: #1e293b;
-    padding: 20px;
-    border-radius: 10px;
-    margin: 15px 0;
-}
-
-ul{
-    list-style: none;
-}
-
-li{
-    padding: 5px;
-}
-
-footer{
-    text-align: center;
-    padding: 20px;
-    background: #1e293b;
+    background:#112240;
+    padding:20px;
+    margin:10px;
+    border-radius:10px;
 }
