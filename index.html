@@ -21,12 +21,10 @@ body{
 
 nav{
     background:#112240;
-    padding:20px;
+    padding:15px;
     display:flex;
     justify-content:center;
     gap:30px;
-    position:sticky;
-    top:0;
 }
 
 nav a{
@@ -39,19 +37,19 @@ nav a{
     display:flex;
     justify-content:space-around;
     align-items:center;
-    min-height:90vh;
+    min-height:100vh;
+    padding:50px;
     flex-wrap:wrap;
-    padding:40px;
 }
 
 .hero-text h1{
-    font-size:60px;
+    font-size:55px;
     color:#64ffda;
 }
 
 .hero-text h2{
-    font-size:35px;
     margin-top:10px;
+    font-size:32px;
 }
 
 .hero-text p{
@@ -60,7 +58,9 @@ nav a{
 }
 
 .hero-image img{
-    width:320px;
+    width:300px;
+    height:300px;
+    object-fit:cover;
     border-radius:50%;
     border:5px solid #64ffda;
 }
@@ -69,7 +69,7 @@ section{
     padding:60px 10%;
 }
 
-h2{
+.section-title{
     color:#64ffda;
     margin-bottom:20px;
 }
@@ -77,19 +77,19 @@ h2{
 .skills{
     display:grid;
     grid-template-columns:repeat(auto-fit,minmax(150px,1fr));
-    gap:20px;
+    gap:15px;
 }
 
 .skill-card{
     background:#112240;
-    padding:20px;
+    padding:15px;
     text-align:center;
     border-radius:10px;
 }
 
 .projects{
     display:grid;
-    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
     gap:20px;
 }
 
@@ -108,9 +108,9 @@ h2{
     margin-top:20px;
     background:#64ffda;
     color:black;
+    text-decoration:none;
     padding:12px 20px;
     border-radius:5px;
-    text-decoration:none;
     font-weight:bold;
 }
 
@@ -118,7 +118,6 @@ footer{
     background:#112240;
     text-align:center;
     padding:20px;
-    margin-top:50px;
 }
 
 @media(max-width:768px){
@@ -132,9 +131,8 @@ footer{
     font-size:40px;
 }
 
-.hero-image img{
-    width:250px;
-    margin-top:20px;
+.hero-image{
+    margin-top:30px;
 }
 
 }
@@ -155,6 +153,7 @@ footer{
 
 <div class="hero-text">
 <h1>Pritam Kumar</h1>
+
 <h2>Cloud & Networking Trainee</h2>
 
 <p>
@@ -162,7 +161,7 @@ MCA Student | AWS Cloud | Windows Server |
 Linux | Active Directory | Power BI
 </p>
 
-<a href="Resume.pdf" class="btn">Download Resume</a>
+<a href="#" class="btn">Download Resume</a>
 
 </div>
 
@@ -174,24 +173,26 @@ Linux | Active Directory | Power BI
 
 <section id="about">
 
-<h2>About Me</h2>
+<h2 class="section-title">About Me</h2>
 
 <p>
-I am Pritam Kumar, an MCA student passionate about Cloud Computing,
-System Administration, Networking, Linux and AWS technologies.
-I enjoy building practical projects and continuously improving my technical skills.
+I am an MCA student passionate about Cloud Computing,
+System Administration, Windows Server, Linux,
+AWS Cloud and Networking technologies.
+I enjoy building practical projects and continuously
+improving my technical skills.
 </p>
 
 </section>
 
 <section id="skills">
 
-<h2>Skills</h2>
+<h2 class="section-title">Skills</h2>
 
 <div class="skills">
 
-<div class="skill-card">Windows Server</div>
 <div class="skill-card">AWS Cloud</div>
+<div class="skill-card">Windows Server</div>
 <div class="skill-card">Linux</div>
 <div class="skill-card">Networking</div>
 <div class="skill-card">Active Directory</div>
@@ -205,13 +206,13 @@ I enjoy building practical projects and continuously improving my technical skil
 
 <section id="projects">
 
-<h2>Projects</h2>
+<h2 class="section-title">Projects</h2>
 
 <div class="projects">
 
 <div class="project-card">
 <h3>Laptop Request Catalog Item</h3>
-<p>ServiceNow catalog item project for automated laptop requests.</p>
+<p>ServiceNow based request catalog project.</p>
 </div>
 
 <div class="project-card">
@@ -221,7 +222,7 @@ I enjoy building practical projects and continuously improving my technical skil
 
 <div class="project-card">
 <h3>Personal Portfolio Website</h3>
-<p>Professional portfolio website hosted using GitHub Pages.</p>
+<p>Professional portfolio hosted using GitHub Pages.</p>
 </div>
 
 </div>
@@ -230,19 +231,23 @@ I enjoy building practical projects and continuously improving my technical skil
 
 <section id="contact">
 
-<h2>Contact</h2>
+<h2 class="section-title">Contact</h2>
 
-<p>Email: pritamraj143123@gmail.com</p>
+<p><strong>Email:</strong> pritamraj143123@gmail.com</p>
+
+<br>
 
 <p>
-LinkedIn:
+<strong>LinkedIn:</strong>
 <a href="https://linkedin.com/in/pritam-kumar-f-035215210" style="color:#64ffda;">
 View Profile
 </a>
 </p>
 
+<br>
+
 <p>
-GitHub:
+<strong>GitHub:</strong>
 <a href="https://github.com/Pritamkumarf7" style="color:#64ffda;">
 github.com/Pritamkumarf7
 </a>
@@ -251,10 +256,8 @@ github.com/Pritamkumarf7
 </section>
 
 <footer>
-
-<p>© 2026 Pritam Kumar | Cloud & Networking Portfolio</p>
-
+© 2026 Pritam Kumar | Cloud & Networking Portfolio
 </footer>
 
 </body>
-</html>
+</html> 
