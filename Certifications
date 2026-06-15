@@ -1,10 +1,17 @@
-<section id="certifications">
-<h2 class="section-title">Certifications</h2>
+<!DOCTYPE html>
+<html>
+<head>
+<title>Certifications</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<h1>Certifications</h1>
 
 <ul>
-<li>Networking & Cloud – SHAVIN INFOTECH (Elite Cloud Engineer Award)</li>
+<li>Networking & Cloud – SHAVIN INFOTECH</li>
 <li>Cybersecurity – DROP Organization</li>
 <li>English Communication – Action DNA</li>
 </ul>
 
-</section>
+</body>
+</html>
